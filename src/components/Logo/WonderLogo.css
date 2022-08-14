@@ -1,0 +1,15 @@
+.wonderLogo{
+    line-height: 0;
+    text-align:right;
+}
+.wonderLogo:hover{
+    transform:translate(0, -2px);
+}
+.wonders{
+    /* color: black; */
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+.nailsandspa{
+    color: #F1948A;
+}
