@@ -1,0 +1,10 @@
+.bannerwrap{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    overflow:hidden;
+}
+.banner{
+    height: auto;
+    width: 100%;
+}
