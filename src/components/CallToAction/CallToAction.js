@@ -1,6 +1,6 @@
 function CallToAction(){
     return(
-        <a className="calltoaction" href="/">Book Now</a>
+        <a className="calltoaction" href="/book-now">Book Now</a>
     )
 }
 
