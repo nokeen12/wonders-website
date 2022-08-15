@@ -12,3 +12,15 @@
 .navbar > *{
     padding: 0 30px;
 }
+.rightSide{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+}
+.rightSide a{
+    text-decoration: none;
+    /* color: red; */
+}
+a{
+    text-decoration: none;
+}
