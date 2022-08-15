@@ -1,0 +1,16 @@
+.calltoaction{
+    position:absolute;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(70,70,70);
+    font-weight: 800;
+    padding: 10px;
+}
+.calltoaction:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px brown;
+}

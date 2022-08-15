@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
+import './CallToAction.css'
+
 function CallToAction(){
     return(
-        <a className="calltoaction" href="/book-now">Book Now</a>
+        <Link className="calltoaction" to="/book-now">Book Now</Link>
     )
 }
 
