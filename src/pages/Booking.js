@@ -5,20 +5,17 @@ function Booking(){
             <Link to="/">Back to homepage</Link>
             <br/>
             <p>Booking Page</p>
-            <form action="mailto:cordrepayne@gmail.com" method="get" enctype="text/plain">
-                <label for="name">Name:
-                    <input type="text" name="name" id="name" />
-                </label>
+            <form action="mailto:cordrepayne@gmail.com" method="post" enctype="text/plain">
+                Name:<br/>
+                <input type="text" name="name" id="name" />
                 <br/>
-                <label for="email">Email:
-                    <input type="text" name="email" id="email" />
-                </label>
+                Email:<br/>
+                <input type="text" name="email" id="email" />
                 <br/>
-                <label for="date">Date:
-                    <input type="date" name="date" id="date"/>
-                </label>
+                Date:<br/>
+                <input type="date" name="date" id="date"/>
                 <br/>
-                <input type="submit" name="submit" value="Book"/>
+                <input type="submit" value="Send"/>
             </form>
         </div>
     )
