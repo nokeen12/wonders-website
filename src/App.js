@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <div className="routes">
       <Routes>
-        <Route path="/wonders-website/" element={ <Homepage/> }/>
+        <Route path="/" element={ <Homepage/> }/>
         <Route path="/home" element={ <Homepage/> }/>
         <Route path="/book-now" element={ <Booking/> }/>
       </Routes>
