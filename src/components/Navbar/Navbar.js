@@ -7,7 +7,7 @@ function Navbar(){
     return(
         <div className='navbar'>
             <div className="leftSide">
-                <WonderLogo />
+                <Link to="/"><WonderLogo /></Link>
             </div>
             <div className="rightSide">
                 <Link to="/home">Home</Link>

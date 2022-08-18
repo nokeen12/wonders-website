@@ -2,7 +2,7 @@
     display:flex;
     width:100%;
     background-color: white;
-    height: 100px;
+    height: 64px;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 4px black;
@@ -16,11 +16,16 @@
 .rightSide{
     display:flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
 }
 .rightSide a{
-    text-decoration: none;
-    /* color: red; */
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 500;
+}
+.rightSide a:hover{
+    background: rgba(0,0,0,.2);
+    transform: translateY(-2px);
 }
 a{
     text-decoration: none;
