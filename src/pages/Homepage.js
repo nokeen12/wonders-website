@@ -1,6 +1,7 @@
 import Banner from "../components/Banner/Banner";
 import CallToAction from "../components/CallToAction/CallToAction";
 import WonderLogo from "../components/Logo/WonderLogo";
+import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
 function Homepage(){
     return(
         <div className="homepage">
@@ -12,7 +13,7 @@ function Homepage(){
                 </div>
                 <div id="rightBody">
                     <div id="rightBodyButton"><CallToAction/></div> 
-                    {/* insert image carrousel component here  */}
+                    <ImageCarousel/>
                 </div>
             </div>
         </div>

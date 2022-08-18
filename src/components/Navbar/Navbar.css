@@ -8,6 +8,7 @@
     box-shadow: 0 1px 4px black;
     position: sticky;
     top: 0;
+    z-index: 3;
 }
 .navbar > *{
     padding: 0 30px;
