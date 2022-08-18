@@ -1,16 +1,20 @@
-html{
+html,body{
+  /* background-color: #FDEDEC; */
+  background: linear-gradient(#F1948A, #FDEDEC);
+  background-repeat:no-repeat;
   height: 100%;
-  background: #FDEDEC;
+  overflow-x:hidden;
 }
+
 .App {
   text-align: center;
   height: 100%;
 }
-body{
+/* body{
   background: linear-gradient(#F1948A, #FDEDEC);
   background-repeat:no-repeat;
   height: 100%;
-}
+} */
 .routes {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -51,6 +55,12 @@ body{
   justify-content:center;
   margin-bottom: 100px;
 }
+#rightBodyCarousel{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+}
 @media (max-width:700px){
   #bodyContent{
     display:flex;
@@ -68,3 +78,6 @@ body{
     /* background-color: red; */
   }
 }
+
+
+/*280px*/

@@ -13,7 +13,7 @@ function Homepage(){
                 </div>
                 <div id="rightBody">
                     <div id="rightBodyButton"><CallToAction/></div> 
-                    <ImageCarousel/>
+                    <div id="rightBodyCarousel"><ImageCarousel/></div>
                 </div>
             </div>
         </div>
