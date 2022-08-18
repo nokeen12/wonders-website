@@ -10,9 +10,9 @@ function Navbar(){
                 <WonderLogo />
             </div>
             <div className="rightSide">
-                <Link to="/home">Home</Link>
-                <Link to="/book-now">Booking</Link>
-                <Link to="/about">About</Link>
+                <Link to="/wonders-website/home">Home</Link>
+                <Link to="/wonders-website/book-now">Booking</Link>
+                <Link to="/wonders-website/about">About</Link>
                 <HamburgerMenu />
             </div>
         </div>

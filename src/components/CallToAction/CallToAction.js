@@ -3,7 +3,7 @@ import './CallToAction.css'
 
 function CallToAction(){
     return(
-        <Link className="calltoaction" to="/book-now">Book Now</Link>
+        <Link className="calltoaction" to="/wonders-website/book-now">Book Now</Link>
     )
 }
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Booking(){
     return(
         <div>
-            <Link to="/">Back to homepage</Link>
+            <Link to="/wonders-website">Back to homepage</Link>
             <br/>
             <p>Booking Page</p>
             <form action="mailto:cordrepayne@gmail.com" method="post" enctype="text/plain">
