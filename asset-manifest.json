@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/wonders-website/static/css/main.f6d14534.css",
-    "main.js": "/wonders-website/static/js/main.b9ea57b7.js",
+    "main.js": "/wonders-website/static/js/main.aaa5d0f7.js",
     "index.html": "/wonders-website/index.html",
     "main.f6d14534.css.map": "/wonders-website/static/css/main.f6d14534.css.map",
-    "main.b9ea57b7.js.map": "/wonders-website/static/js/main.b9ea57b7.js.map"
+    "main.aaa5d0f7.js.map": "/wonders-website/static/js/main.aaa5d0f7.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d14534.css",
-    "static/js/main.b9ea57b7.js"
+    "static/js/main.aaa5d0f7.js"
   ]
 }
