@@ -1,7 +1,7 @@
 html,body{
-  /* background-color: #FDEDEC; */
-  background: linear-gradient(#F1948A, #FDEDEC);
+  background-image: url('../public/nails6.png');
   background-repeat:no-repeat;
+  background-size: cover;
   height: 100%;
   overflow-x:hidden;
 }
@@ -10,15 +10,10 @@ html,body{
   text-align: center;
   height: 100%;
 }
-/* body{
-  background: linear-gradient(#F1948A, #FDEDEC);
-  background-repeat:no-repeat;
-  height: 100%;
-} */
+
 .routes {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
-  /* animation-fill-mode: forwards; */
   z-index: 2;
 }
 
@@ -30,10 +25,37 @@ html,body{
       opacity: 1;
    }
 }
-.homepage{
-  /* background-color:red; */
+#backgroundImg{
+  /* animation: delayBackground ease 3s;
+  animation-iteration-count: 1;
+  animation-delay:3s; */
+  background-image: url('../public/nails6.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+@keyframes delayBackground{
+  0% {
+    opacity:0;
+  }
+  100%{
+    opacity:1
+  }
+}
+#bookingPage{
+  height: 80vh;
 }
 #bodyContent{
+  background: 
+  linear-gradient(-.15turn,
+      rgba(190,190,190,1) 0%,
+      rgba(255,255,255,1) calc(50% - .8px),
+      rgba(190,190,190,1) 50%,
+      rgba(230,230,230,1) calc(52% + 1%),
+      rgba(230,230,230,1) 100%);
   display:flex;
   min-height: 600px;
   padding: 50px 15px 50px 30px;
@@ -66,7 +88,6 @@ html,body{
   #bodyContent{
     display:flex;
     flex-direction:column;
-    /* background-color:blue; */
     padding: 50px 20px;
   }
   #leftBodyLogo{
@@ -75,10 +96,13 @@ html,body{
   #bodyContent > div{
     width:100%;
   }
-  #rightBody{
-    /* background-color: red; */
-  }
+}
+#photoTitle{
+  border: 4px solid black;
+  padding: 10px 15px;
 }
 
-
-/*280px*/
+#seeThrough{
+  background: rgba(0,0,0,.8);
+  height: 200px;
+}
