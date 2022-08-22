@@ -1,7 +1,4 @@
 html,body{
-  /* background-image: url('../public/nails6.png');
-  background-repeat:no-repeat;
-  background-size: cover; */
   height: 100%;
   overflow-x:hidden;
 }
@@ -33,9 +30,6 @@ html,body{
    }
 }
 #backgroundImg{
-  /* animation: delayBackground ease 3s;
-  animation-iteration-count: 1;
-  animation-delay:3s; */
   position:fixed;
   background-image: url('../public/nails6.png');
   background-repeat:no-repeat;
@@ -55,16 +49,6 @@ html,body{
   display:flex;
   justify-content: center;
   background-color: lightgrey;
-
-
-}
-@keyframes delayBackground{
-  0% {
-    opacity:0;
-  }
-  100%{
-    opacity:1
-  }
 }
 #bookingPage{
   height: 80vh;
@@ -80,6 +64,7 @@ html,body{
   display:flex;
   min-height: 600px;
   padding: 50px 15px 50px 30px;
+  margin-top: -5px;
 }
 #bodyContent > div{
   width:50%;
@@ -114,7 +99,6 @@ html,body{
     display:flex;
     flex-direction:column;
     padding: 50px 20px;
-    margin-top: -5px;
   }
   #leftBodyLogo{
     justify-content:center;
