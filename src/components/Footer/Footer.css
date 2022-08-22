@@ -2,10 +2,10 @@
     /* border-top: 3px solid #F1948A; */
     background-color: white;
     width: 100%;
-    height: auto;
     height: 100%;
     display:flex;
     text-align: left;
+    /* z-index: 3; */
     /* justify-content: left; */
 }
 #socials{
