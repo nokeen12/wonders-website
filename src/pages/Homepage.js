@@ -1,5 +1,7 @@
 import Banner from "../components/Banner/Banner";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
+import ServiceCard from "../components/ServiceCard/ServiceCard";
+
 function Homepage(){
     return(
         <div className="homepage">
@@ -19,6 +21,11 @@ function Homepage(){
                 <div id="seeThrough"/>
                 <div id="bodyContent2">
                     <h1>Services</h1>
+                    <div id="services">
+                        <ServiceCard name="Pedicures" image='nails1.png' />
+                        <ServiceCard name="Manicures" image="nails2.png"/>
+                        <ServiceCard name="Waxing" image="nails3.png"/>
+                    </div>
                 </div>
             </div>
         </div>

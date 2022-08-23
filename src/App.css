@@ -47,6 +47,7 @@ html,body{
 }
 #bodyContent2{
   display:flex;
+  flex-direction: column;
   justify-content: center;
   background-color: lightgrey;
 }
@@ -115,4 +116,9 @@ html,body{
 #seeThrough{
   background: rgba(0,0,0,.8);
   height: 200px;
+}
+#services{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
 }
